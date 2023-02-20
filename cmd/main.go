@@ -3,12 +3,12 @@ package main
 import (
 	"errors"
 	"flag"
-	"github.com/s1ovac/todobot/pkg/clients/telegram"
 	"log"
 )
 
 func main() {
-	tgClient := telegram.NewClient("api.telegram.org", mustToken())
+	//tgClient := telegram.NewClient("api.telegram.org", mustToken())
+
 	// fetcher := fetcher.New() - отправляет запросы, чтобы получать события
 	// processor := processor.New() - обрабатывает запросы
 
